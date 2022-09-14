@@ -1,7 +1,7 @@
 # SpeechReco 
 ## Multiple change in AndroidManifest.xml, build.gradle, and activity_main.xml.
   Add user permission to access the Internet in AndroidManifest.xml. Add OkHttp3 implementation in gradle file. Add image button and a textview in activity_main.xml.
-#### Use ic_mic.xml, ic_mic_black.xml as image resources. in res directory, add network_security_config.xml too access api. 
+#### Use ic_mic.xml, ic_mic_black.xml as image resources. In res directory, add network_security_config.xml to access api. 
 ## In MainActiity.java, function explanation:
   Initialize TextToSpeech function duiring the intialization.
   Once click the image button, app will call google speech recognition funtion. From speech to text, and display text in textView.
